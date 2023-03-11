@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  width:100%;
+  color:red;
+}
+.nav-list {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(118, 120, 236);
+  font-size: 18px;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+}
+.me-auto{
+  position: relative;
+  left:62%;
+}
+.about-me {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+.image-div {
+  width: 45%;
+}
+.my-image {
+  height: 300px;
+  clip-path: circle(30%);
+  z-index: 2;
+}
+.mydescription {
+  width: 45%;
+  text-align: justify;
+  margin-top: 10px;
+  margin-right: 50px;
+  padding: 20px;
+}
+.mydescription h2 {
+  color: #5900b3;
+}
+.mydescription p {
+  font-size: 20px;
+}
+.button {
+  font-size: 15px;
+}
+.skills h2 {
+  text-align: center;
+}
+.skills {
+  width: 100%;
+  margin: 50px 0;
+  padding: 20px;
+}
+.skill-section {
+  margin: 25px auto;
+  width: 35%;
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  position: relative;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.skill-bar {
+  background-color: #5900b3;
+  height: 0.25rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 0.5rem;
+}
+.html-skill {
+  width: 100%;
+}
+.css-skill {
+  width: 100%;
+}
+.js-skill {
+  width: 100%;
+}
+.react-skill {
+  width: 85%;
+}
+.projects {
+  width: 100%;
+  margin: 50px 0;
+  padding: 20px;
+}
+.projects h2 {
+  text-align: center;
+}
+.project-collection {
+  display: flex;
+  overflow-x: auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.project-collection img {
+  height: 300px;
+  width: 350px;
+  margin: 20px;
+}
+.project-collection img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  
+}
+.contacts {
+  margin: 50px 0;
+}
+.contacts h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.contactForm {
+  width: 100%;
+}
+.contactForm input:focus {
+  outline: none;
+}
+
+.contactForm input {
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+}
+textarea {
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 18px;
+}
+textarea:focus {
+  outline: none;
+}
+.sub-btn,
+.input-field {
+  width: 50%;
+  margin: 25px auto;
+  text-align: center;
+}
+.btn-width {
+  width: 20%;
+}
+.my-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(68, 137, 233);
+  padding: 12px;
+  font-size: 15px;
+}
+.my-button:hover {
+  background-color: rgb(23, 95, 167);
+  transition: 0.5s;
+}
+.footer {
+  background-color: rgb(64, 64, 142);
+  color: white;
+  width: 100%;
+  padding: 4.5rem 0;
+
+}
+.footer-name {
+  margin-left: 50px;
+}
+.footer-links {
+  
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  top:4rem;
+}
+.footer-links a{
+  color:white;
+  text-decoration: none;
+}
+.fa-brands{
+  font-size: 2rem;
+  margin: 6px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    z-index: 2;
+    position: fixed;
+    padding: 12px 0;
+  }
+  .my-image {
+    position: absolute;
+    left: -75px;
+    height: 280px;
+    top: 130px;
+    z-index: 1;
+  }
+  .my-button {
+    width: 50%;
+  }
+  .skill-section {
+    width: 50%;
+  }
+  .contactForm input {
+    width: 80%;
+  }
+  textarea {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-me {
+    display: block;
+    height: 120vh;
+  }
+  .my-image {
+    position: absolute;
+    top: 60px;
+    left: 1%;
+  }
+  .mydescription {
+    width: 95%;
+    position: relative;
+    top: 180px;
+    padding: 20px;
+    margin-top: 60px;
+    left: 10px;
+  }
+  .mydescription h2 {
+    text-align: center;
+  }
+  .mydescription p {
+    margin-top: 20px;
+  }
+  .button {
+    position: relative;
+    left: 25%;
+    top: 15px;
+  }
+  .skill-section {
+    width: 75%;
+  }
+  .contactForm input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 20px;
+  }
+  textarea {
+    width: 100%;
+  }
+  .footer-content {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about-me {
+    width: 100%;
+  }
+  .my-image {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+  }
+  .mydescription {
+    margin-top: 50px;
+  }
+  .my-button {
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:320px){
+  .about-me{
+    height:130vh;
+  }
+  .mydescription{
+    width:100%;
+    left:1px;
+    margin-top:50px;
+  }
+  .contactForm input {
+    width: 100%;
+    padding:5px 0;
+  }
+}
