@@ -22,12 +22,12 @@ class Project extends React.Component {
             </a>
           </div>
           <div>
-            <a href="">
+            <a href="https://anusa111.github.io/movieguide" target="_blank">
               <img src={project3} alt="" />
             </a>
           </div>
           <div>
-            <a href="">
+            <a href="https://anusa111.github.io/quiz-game-js"  target="_blank">
               <img src={project4} alt="" />
             </a>
           </div>
@@ -37,7 +37,7 @@ class Project extends React.Component {
             </a>
           </div>
           <div>
-            <a href="">
+            <a href="https://anusa111.github.io/ReactWeather"  target="_blank">
               <img src={project6} alt="" />
             </a>
           </div>
