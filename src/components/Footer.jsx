@@ -15,7 +15,7 @@ class Footer extends React.Component {
             <i className="fa-brands fa-github"></i>
           </a>
           <a href="">
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
         </div>
       </div>

@@ -21,6 +21,7 @@
 .me-auto{
   position: relative;
   left:62%;
+ 
 }
 .about-me {
   margin: 50px 0;
@@ -195,6 +196,9 @@ textarea:focus {
   color:white;
   text-decoration: none;
 }
+.footer-links a:hover{
+  color:black;
+}
 .fa-brands{
   font-size: 2rem;
   margin: 6px;
@@ -206,6 +210,11 @@ textarea:focus {
     z-index: 2;
     position: fixed;
     padding: 12px 0;
+  }
+  .me-auto{
+ 
+    left:0;
+
   }
   .my-image {
     position: absolute;
@@ -225,6 +234,9 @@ textarea:focus {
   }
   textarea {
     width: 80%;
+  }
+  .footer-name {
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 425px) {
