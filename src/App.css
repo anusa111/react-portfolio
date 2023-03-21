@@ -31,6 +31,7 @@
   flex-grow: 1;
   flex-shrink: 1;
   flex-wrap: wrap;
+ 
 }
 .image-div {
   width: 45%;
@@ -63,6 +64,7 @@
   width: 100%;
   margin: 50px 0;
   padding: 20px;
+
 }
 .skill-section {
   margin: 25px auto;
